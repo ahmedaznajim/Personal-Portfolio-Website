@@ -11,17 +11,19 @@ div{
 #fr1{
     width: 100%;
     height: auto;
-   
+   font-family: "Playwrite AU QLD", cursive;
     font-size:  large;
-    margin-left: 30px;
+    margin-left: 200px;
 }
 #about{
     font-size:400%;
     margin-bottom: 3px;
+    font-family: "Playwrite AU QLD", cursive;
 }
 #fr2{
     display: flex;
     justify-content: center;
+    margin-bottom: 150px;
 
 }
 #fr2 img{
@@ -47,6 +49,7 @@ span{
    margin-bottom: 10px;
     font-size:  large;
     align-self: center;
+    margin-left: 0px;
   
 }
 #about{
@@ -57,7 +60,7 @@ span{
     display: flex;
     justify-content: center;
     margin-top: 50px;
-
+margin-bottom: 150px;
 }
 #fr2 img{
     width: 150%;
