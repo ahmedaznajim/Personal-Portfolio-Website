@@ -1,0 +1,90 @@
+#main{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+  
+color: white;
+}
+
+#part-one{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    align-items:start;
+     font-size: 25px;
+}
+
+#part-two{
+    display: flex;
+    flex-direction: row;
+    width: 700px;
+    align-items: start;
+     font-size: 25px;
+}
+#h{
+    display: flex;
+    align-items: start;
+    width: 500px;
+    font-size: 40px;
+    
+}
+
+#op-logo{
+    margin-left: 125px;
+}
+
+#fu-logo{
+    margin-left: 50px;  
+    margin-top: 25px;
+}
+span{
+    color: rgb(121, 250, 1);
+}
+
+@media (max-width: 770px) {
+#main{
+    display: flex;
+    flex-direction: column;
+   align-items: center;
+ margin-bottom: 100px;
+color: white;
+}
+
+#part-one{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+     font-size: 25px;
+}
+
+#part-two{
+    display: flex;
+    flex-direction: column;
+    width: 700px;
+    align-items: center;
+     font-size: 25px;
+}
+#h{
+    display: flex;
+    align-items: start;
+    width: 500px;
+    font-size: 40px;
+    
+}
+
+#op-logo{
+    margin-left: 0px;
+    margin-bottom: 20px;
+}
+
+#fu-logo{
+    margin-left: 50px;  
+    margin-top: 25px;
+}
+span{
+    color: rgb(121, 250, 1);
+}
+
+
+}

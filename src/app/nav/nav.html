@@ -1,0 +1,41 @@
+
+<nav >
+<div id="img">
+    <img src="Ahmad3.png" alt="Ahmad">
+</div>
+@if(!isMobile){
+<div id="nav-content">
+<div id="Home" >
+<a href="#nav">Home</a>
+<a href="#about">About</a>
+<a href="#Projects">Projects</a>   
+ <a href="#experience">experience</a>
+ <a href="https://drive.google.com/file/d/1NWLlm02YwXqSUuRSqPYV9twhgijwqaiL/view?usp=sharing" id="cv">My CV</a>
+</div>
+</div>
+}
+@if(isMobile) {
+    <div id="nav2">
+<div id="nav-content2"  (click) = "toggleDropdown()"> &#x22EE;
+    @if(dropDown){
+<div id="Home2" class="drop" > 
+<div id="x">x</div>
+<a href="#nav">Home</a>
+<a href="#about">About</a>
+<a href="#Projects">Projects</a>   
+ <a href="#experience">experience</a>
+ <a href="https://drive.google.com/file/d/1NWLlm02YwXqSUuRSqPYV9twhgijwqaiL/view?usp=sharing" id="cv2">My CV</a>
+</div>
+    }
+</div>
+</div>
+}
+<div id="Social"><a href="https://www.linkedin.com/in/ahmad-najim-09033234a/"><img src="th (1).jpg" alt="linkedIn"></a>
+<a href="https://www.instagram.com/ahmadanajim/"><img src="th.jpg" alt="Instgram"></a>
+</div>
+
+</nav>
+<div id="second-section" >
+
+<img src="Ahmed4 (2).png" alt="Ahmed">
+</div>
